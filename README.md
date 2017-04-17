@@ -3,9 +3,6 @@ Qiniu Ftp AliYun Extension for Yii2
 
 The Qiniu integration for the Yii framework
 
-[![Build Status](https://travis-ci.org/juckzhang/yii2-upload.svg)](https://travis-ci.org/juckzhang/yii2-upload)
-[![Code Climate](https://codeclimate.com/github/juckzhang/yii2-upload/badges/gpa.svg)](https://codeclimate.com/github/juckzhang/yii2-upload)
-[![Issue Count](https://codeclimate.com/github/juckzhang/yii2-upload/badges/issue_count.svg)](https://codeclimate.com/github/juckzhang/yii2-upload)
 [![Latest Stable Version](https://poser.pugx.org/juckzhang/yii2-upload/version)](https://packagist.org/packages/juckzhang/yii2-upload)
 [![Total Downloads](https://poser.pugx.org/juckzhang/yii2-upload/downloads)](https://packagist.org/packages/juckzhang/yii2-upload)
 [![License](https://poser.pugx.org/juckzhang/yii2-upload/license)](https://packagist.org/packages/juckzhang/yii2-upload)
