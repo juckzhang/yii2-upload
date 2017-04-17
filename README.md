@@ -71,7 +71,7 @@ return [
                'disks' => [
                    'privateBucket' => [
                        'bucket' => 'YOUR BUCKET',
-                       'baseUrl' => 'http://of2iqabtp.bkt.clouddn.com/',
+                       'baseUrl' => 'http://your-domain/',
                        'isPrivate' => true,
                        'zone' => 'zone1', // 可设置为 zone0, zone1 @see \Qiniu\Zone
                    ],
@@ -91,7 +91,7 @@ return [
               'accessKeyId' => 'YOUR ACCESSSKEYID',
               'accessKeySecret' => 'ACCESSKEYSECRET',
               'bucket' => 'test-zaizaitv-upload',
-              'endPoint' => 'http://test-zaizaitv-upload.oss-cn-beijing.aliyuncs.com',
+              'endPoint' => 'http://your-domain/',
           ],
       ],
     ],
