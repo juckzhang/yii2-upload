@@ -3,12 +3,12 @@ Qiniu Ftp AliYun Extension for Yii2
 
 The Qiniu integration for the Yii framework
 
-[![Build Status](https://travis-ci.org/juckzhang/yii2-upload-tool.svg)](https://travis-ci.org/juckzhang/yii2-upload-tool)
-[![Code Climate](https://codeclimate.com/github/juckzhang/yii2-upload-tool/badges/gpa.svg)](https://codeclimate.com/github/juckzhang/yii2-upload-tool)
-[![Issue Count](https://codeclimate.com/github/juckzhang/yii2-upload-tool/badges/issue_count.svg)](https://codeclimate.com/github/juckzhang/yii2-upload-tool)
-[![Latest Stable Version](https://poser.pugx.org/juckzhang/yii2-upload-tool/version)](https://packagist.org/packages/juckzhang/yii2-upload-tool)
-[![Total Downloads](https://poser.pugx.org/juckzhang/yii2-upload-tool/downloads)](https://packagist.org/packages/juckzhang/yii2-upload-tool)
-[![License](https://poser.pugx.org/juckzhang/yii2-upload-tool/license)](https://packagist.org/packages/juckzhang/yii2-upload-tool)
+[![Build Status](https://travis-ci.org/juckzhang/yii2-upload.svg)](https://travis-ci.org/juckzhang/yii2-upload)
+[![Code Climate](https://codeclimate.com/github/juckzhang/yii2-upload/badges/gpa.svg)](https://codeclimate.com/github/juckzhang/yii2-upload)
+[![Issue Count](https://codeclimate.com/github/juckzhang/yii2-upload/badges/issue_count.svg)](https://codeclimate.com/github/juckzhang/yii2-upload)
+[![Latest Stable Version](https://poser.pugx.org/juckzhang/yii2-upload/version)](https://packagist.org/packages/juckzhang/yii2-upload)
+[![Total Downloads](https://poser.pugx.org/juckzhang/yii2-upload/downloads)](https://packagist.org/packages/juckzhang/yii2-upload)
+[![License](https://poser.pugx.org/juckzhang/yii2-upload/license)](https://packagist.org/packages/juckzhang/yii2-upload)
 
 Installation
 --------------------
@@ -18,13 +18,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require --prefer-dist juckzhang/yii2-upload-tool
+composer require --prefer-dist juckzhang/yii2-upload
 ```
 
 or add
 
 ```json
-"juckzhang/yii2-upload-tool": "*"
+"juckzhang/yii2-upload": "*"
 ```
 
 to the `require` section of your composer.json.
