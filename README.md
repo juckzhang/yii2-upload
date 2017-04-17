@@ -99,9 +99,18 @@ return [
 
 ```
 
-#### [使用]
+#### [使用1]
 ```php
 \Yii::$app->get('uploadTool')->uploadFile($remoteFileName,$localFileName);
+```
+
+#### [使用2]
+```php
+/**单文件上传**/
+juckzhang\UploadService::getService()->upload($sceneType);
+
+/**多文件上传**/
+juckzhang\UploadService::getService()->multiUpload($sceneType);
 ```
 
 #### [控制器中使用]
