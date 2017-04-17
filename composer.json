@@ -1,0 +1,43 @@
+{
+  "name": "juckzhang/yii2-upload",
+  "type": "yii2-extension",
+  "description": "The Qiniu 、ftp、local、aliyun-oss integration for the Yii2 framework",
+  "keywords": [
+    "juckzhang",
+    "yii2",
+    "qiniu",
+    "ftp",
+    "aliyun-oss",
+    "helper"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "juckzhang",
+      "email": "zhangchao_1125@sina.sn"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*",
+    "php": ">=5.4.0",
+    "qiniu/php-sdk": "v7.0.7",
+    "league/flysystem": "~1.0",
+    "dcb9/yii2-qiniu": "^0.3.0",
+    "aliyuncs/oss-sdk-php": "~2.0",
+    "hguenot/yii2-gftp": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "juckzhang\\": "./src"
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}
