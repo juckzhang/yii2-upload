@@ -133,19 +133,16 @@ class UploadService extends Component
 
         if($model->file->saveToRemote($fullFileName))
             return [
-                'code' => 200,
-                'data' => [
-                    'url' => $model->getUrlPrefix() . $fullFileName,
-                    'fullFileName' => $fullFileName,
-                    'type' => $model->file->type,
-                    'size' => $model->file->size,
-                    'width' => $model->file->width,
-                    'height' => $model->file->height,
-                ]
+                'url' => $model->getUrlPrefix() . $fullFileName,
+                'fullFileName' => $fullFileName,
+                'type' => $model->file->type,
+                'size' => $model->file->size,
+                'width' => $model->file->width,
+                'height' => $model->file->height,
             ];
 
 
-        return ['code' => 400,'message' => '文件上传失败'];
+        return '文件上传失败!';
     }
 
     /**
@@ -179,18 +176,15 @@ class UploadService extends Component
 
         if($model->file->saveAs($fullFileName))
             return [
-                'code' => 200,
-                'data' => [
-                    'url' => $model->getUrlPrefix() . $fullFileName,
-                    'fullFileName' => $fullFileName,
-                    'type' => $model->file->type,
-                    'size' => $model->file->size,
-                    'width' => $model->file->width,
-                    'height' => $model->file->height,
-                ]
+                'url' => $model->getUrlPrefix() . $fullFileName,
+                'fullFileName' => $fullFileName,
+                'type' => $model->file->type,
+                'size' => $model->file->size,
+                'width' => $model->file->width,
+                'height' => $model->file->height,
             ];
 
-         return ['code' => 400,'message' => '文件上传失败'];
+         return '文件上传失败!';
     }
 
     /**
